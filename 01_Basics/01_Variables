@@ -1,0 +1,22 @@
+const accountId=240
+
+/*
+Earlier we use var, but it has scoping issue,
+so we started using let,
+Prefer not to use var
+because of issue in block scope and functional scope
+ */
+var accountName ="Abc"
+let accountEmail = "abc@gmail.com"
+
+accountCity = "Jaipur";
+
+//we cant change the value of const variable, it will throw an error
+// accountID = 420
+console.log(accountId)
+
+//console.table we used to print multiple things in one go
+console.table([accountId, accountName,accountEmail,accountCity])
+
+let undef;
+console.log(undef)//output : undefined
