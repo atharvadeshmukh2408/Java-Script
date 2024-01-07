@@ -9,6 +9,7 @@ because of issue in block scope and functional scope
 var accountName ="Abc"
 let accountEmail = "abc@gmail.com"
 
+//it is not preferable to give create var without var/let/const
 accountCity = "Jaipur";
 
 //we cant change the value of const variable, it will throw an error
